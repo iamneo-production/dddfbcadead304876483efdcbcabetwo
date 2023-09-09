@@ -1,3 +1,5 @@
+index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +8,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tic_tac_toe</title>
 
-  <link type=""> 
   <!-- link the style.css and app.js files -->
+  <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-  <h1 id="header">Tic Tac Toe</h1>
-  <div>
-
+  <!-- Enter your code here -->
+  <header>
+    <h1 id="header">Tic Tac Toe</h1>
+  </header>
+  <div class="box">
+    <!-- Create a 3x3 grid using nested div elements -->
+    <div class="row">
+      <input class="cell"></input>
+      <input class="cell"></input>
+      <input class="cell"></input>
+    </div>
+    <div class="row">
+      <input class="cell"></input>
+      <input class="cell"></input>
+      <input class="cell"></input>
+    </div>
+    <div class="row">
+      <input class="cell"></input>
+      <input class="cell"></input>
+      <input class="cell"></input>
+    </div>
   </div>
+  <div class="result-container">
+    <p class="result">Player X's turn</p>
+  </div>
+  <div class="reset">
+    <button class="btn" id="reset">Reset</button>
+  </div>
+  <script src="./script.js"></script>
 </body>
 </html>
